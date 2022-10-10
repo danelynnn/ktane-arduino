@@ -16,7 +16,7 @@ final float minutes = 3;
 final int maxStrikes = 3;
 
 // INITIALIZATION //
-static final String[][] keypadColumns = new String[][] {
+final String[][] keypadColumns = new String[][] {
   new String[]{"28-balloon", "13-at", "30-upsidedowny", "12-squigglyn", "7-squidknife", "9-hookn", "23-leftc"},
   new String[]{"16-euro", "28-balloon", "23-leftc", "26-cursive", "3-hollowstar", "9-hookn", "20-questionmark"},
   new String[]{"1-copyright", "8-pumpkin", "26-cursive", "5-doublek", "15-meltedthree", "30-upsidedowny", "3-hollowstar"},
@@ -24,8 +24,9 @@ static final String[][] keypadColumns = new String[][] {
   new String[]{"24-pitchfork", "4-smileyface", "31-bt", "22-rightc", "21-paragraph", "19-dragon", "2-filledstar"},
   new String[]{"11-six", "16-euro", "27-tracks", "14-ae", "24-pitchfork", "18-nwithhat", "6-omega"}
 };
-static final String[] indicatorValues = new String[]{"SND", "CLR", "CAR", "IND", "FRQ", "SIG", "NSA", "MSA", "TRN", "BOB", "FRK"};
-static final String[] portValues = new String[]{"DVI", "PS2", "Parallel", "RJ45", "Serial", "StereoRCA"};
+
+final String[] indicatorValues = new String[]{"SND", "CLR", "CAR", "IND", "FRQ", "SIG", "NSA", "MSA", "TRN", "BOB", "FRK"};
+final String[] portValues = new String[]{"DVI", "PS2", "Parallel", "RJ45", "Serial", "StereoRCA"};
 
 int startingTime = (int)(minutes*60*100);
 int timer = 0;
